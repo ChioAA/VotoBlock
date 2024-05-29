@@ -1,0 +1,145 @@
+/* Establece el fondo negro y las letras blancas para todo el documento */
+body {
+    background-color: #A1D99B;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+image{
+
+        width: 50px;
+        height: 50px;
+        
+}
+
+.horizontal-container {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Alineación vertical en el centro */
+    padding: 20px;
+    background-color: #1a1a1a; /* Fondo oscuro para el contenedor */
+    color: #ffffff; /* Texto blanco */
+}
+
+
+
+
+/* Estilos para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+/* Estilos para los párrafos */
+p {
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #87ceeb;
+    text-decoration: underline;
+}
+
+/* Estilos para las listas */
+ul, ol {
+    color: #ffffff;
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cccccc;
+}
+
+/* Estilos para formularios */
+input, textarea {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555555;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: auto;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #cccccc;
+}
+
+/* Contenedores */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado del sitio */
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Pie de página del sitio */
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para un div con fondo negro y letras blancas */
+.div-fondo-negro {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Clases utilitarias */
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
